@@ -1,0 +1,46 @@
+/* src/components/LoginPage.css */
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* Adjust as needed */
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.login-buttons-container {
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-login-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.admin-login-button:hover {
+  background-color: #0056b3;
+}
+
+.faculty-login-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.faculty-login-button:hover {
+  background-color: #1e7e34;
+}
